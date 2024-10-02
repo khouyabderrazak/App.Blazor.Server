@@ -1,0 +1,33 @@
+﻿
+
+<style>
+    .bt{
+        border: solid 2px darkslateblue;
+        width:80px;
+    }
+ 
+</style>
+
+<div style="width:160px;height:33px;padding:1px !important" class="bg-primary rounded d-flex">
+
+    @if (Statut == true)
+    {
+        <button type="button" class="bt btn bg-primary border-primary p-0 text-white" onclick="@onTrue" >Oui</button>
+        <button type="button" class="bt btn bg-white border-primary p-0 text-dark" onclick="@onFalse">Non</button>
+    }
+    else if(Statut == false)
+    {
+        <button type="button" class="bt btn bg-white border-primary p-0 text-dark" onclick="@onTrue">Oui</button>
+        <button type="button" class="bt btn bg-primary border-primary p-0 text-white" onclick="@onFalse">Non</button>
+    }
+    else
+    {
+        <button type="button" class="bt btn bg-white border-primary p-0 text-dark" onclick="@onTrue">Oui</button>
+        <button type="button" class="bt btn bg-white border-primary p-0 text-dark" onclick="@onFalse">Non</button>
+    }
+</div>
+
+@code {
+
+    
+}

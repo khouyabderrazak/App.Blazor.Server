@@ -1,0 +1,53 @@
+﻿@using Gestion_Projet_App.Models;
+
+<EditForm Model="@projetDto" OnValidSubmit="Submit">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+
+    <div class="row">
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" @bind-value="@projetDto.Nom" placeholder="Nom du Projet">
+        </div>
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Client</label>
+            <RadzenDropDown @bind-Value=@projetDto.ClientID Data=@clients TextProperty="Name" ValueProperty="Id" Style="width: 100%; max-width: 400px;" Name="DropDownBindValue" />
+        </div>
+       
+    </div>
+   
+    <div class="row">
+        @if (user.IsInRole("Admin"))
+        {
+            <div class="mb-3 col-sm-12">
+                <label class="form-label">Chef de Projet</label>
+                <RadzenDropDown @bind-Value=@projetDto.ManagerID Data=@collaborateurs TextProperty="UserName" ValueProperty="Id" Style="width: 100%; max-width: 400px;" Name="DropDownBindValue" />
+            </div>
+        }
+    </div>
+
+    <div class="row">
+        <div class="mb-3 w-100">
+            <label class="form-label">Description</label>
+            <textarea cols="20" rows="2" class="form-control" @bind="@projetDto.Description" placeholder="Description"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Date Début</label>
+            <input type="date" class="form-control" @bind-value="@projetDto.DateDebut" placeholder="Date de Début">
+        </div>
+
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Date Fin</label>
+            <input type="date" class="form-control" @bind-value="@projetDto.DateFin" placeholder="Date de Fin">
+        </div>
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success text-white" value="Valider" />
+    </div>
+</EditForm>
+
+@code {
+
+}

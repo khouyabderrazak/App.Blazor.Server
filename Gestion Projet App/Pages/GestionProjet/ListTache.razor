@@ -1,0 +1,119 @@
+﻿@using Microsoft.EntityFrameworkCore
+@using System.Collections.ObjectModel
+@using Radzen.Blazor
+@using Gestion_Projet_App.Models;
+@using Gestion_Projet_App.Interfaces;
+@using Gestion_Projet_App.Shared;
+@inject DialogService DialogService
+<PageTitle>Index</PageTitle>
+
+
+
+<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Start" class="mt-4">
+  
+    @foreach ( var item in @taches )
+    {
+
+        <RadzenStack Orientation="Orientation.Vertical" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center" Style="max-height:500px !important; overflow:auto !important;">
+         <RadzenDataGrid Data="@item.list" TItem="Tache" AllowFiltering="true" AllowSorting="true" PageSize="5" AllowPaging="false" 
+                            RowRender="@RowRender" ondragover="event.preventDefault()" @ondrop=@(args => Move(getListTaches(taches,item) , item.list,item.TacheStatus)) RowSelect="@onRowSelect" SelectionMode="DataGridSelectionMode.Single">
+        <Columns>
+            @RenderColumns(item.TacheStatus.ToString())
+        </Columns>
+     </RadzenDataGrid>
+            <MatButton OnClick="@(() => onAjouter(item.TacheStatus))" Raised="true" Class="bg-success">Ajouter Une Tache</MatButton> 
+    </RadzenStack>
+    }
+</RadzenStack>
+
+
+<MatDialog @bind-IsOpen="@dialogIsOpen" itemref="body">
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light"> Modifier Tache </span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; tacheChange = null; tacheStatus = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditTache ProjetId=@Projetid tacheStatus=@tacheStatus tache=@tacheChange  onItemChange="@onItemChange"></AddEditTache>
+        }
+    </MatDialogContent> 
+
+</MatDialog>
+
+<MatDialog @bind-IsOpen="@is_ajouter">
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">Ajouter Tache</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { is_ajouter = false; tacheChange = null; tacheStatus = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+      @if (is_ajouter)
+        {
+            <AddTache ProjetId=@Projetid tacheStatus=@tacheStatus onItemChange="@onItemChange"></AddTache>
+        }
+
+    </MatDialogContent>
+</MatDialog>
+
+
+  
+
+
+
+@code {
+
+
+    RenderFragment RenderColumns(string Title=null)
+    {
+        return __builder =>
+        {
+            <text>
+                <RadzenDataGridColumn TItem="Tache" Property="@nameof(Tache.Nom)" Title="@Title">
+                    <Template Context="order">
+                    <RadzenStack class="bg-light p-1">
+                        <RadzenStack Orientation="Orientation.Horizontal" Gap="0.5rem" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.SpaceBetween" class="bg-white p-2 rounded">
+                            <RadzenText TextStyle="TextStyle.Subtitle2" class="rz-mb-0">@order.Nom </RadzenText>
+                            <div>
+                            @if(order.TacheCollaborateurs != null){
+                                    @foreach (TacheCollaborateur taCol in order.TacheCollaborateurs)
+                                    {
+                                        <span class="me-1 px-1 rounded-circle text-white" style="background-color:darkgoldenrod" title="@taCol?.Collaborateur?.UserName">@taCol?.Collaborateur?.UserName.Substring(0, 2)</span>
+                                    }
+                                }
+                            </div>
+                            </RadzenStack>
+                    </RadzenStack>
+                    </Template>
+                </RadzenDataGridColumn>
+             </text>
+        };
+    }
+
+
+
+    void onRowSelect(Tache tache)
+    {
+        dialogIsOpen = true;
+        tacheChange = tache;
+    }
+
+
+    async Task ShowInlineDialog()
+    {
+        var result = await DialogService.OpenAsync("Simple Dialog", ds =>
+    @<RadzenStack Gap="1.5rem">
+        <p>Confirm Order ID <b>lorem r</b>?</p>
+        
+        <RadzenCard>
+
+        </RadzenCard>
+    </RadzenStack>);
+    }
+
+}
+

@@ -1,0 +1,172 @@
+﻿@page "/"
+@attribute [Authorize]
+
+<RadzenCard>
+<RadzenStack class="fs-6" Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
+    <img src="images/logo1.png" style="width:100px;" />  Bienvenue sur votre plateforme de gestion de projet,<span style="color:dodgerblue;"> SyncWork !</span>
+</RadzenStack>
+</RadzenCard>
+<RadzenCard class="mt-2">
+    <style>
+        .crd {
+            transition: ease .5s;
+        }
+
+            .crd:hover  {
+                background-color: dodgerblue !important;
+                color: white;
+                font-weight: bold;
+            }
+            .crd:hover .icn{
+               color:white;
+            }
+
+        .icn{
+            color: dodgerblue;
+            margin-left:4px;
+        }
+    </style>
+
+    <RadzenStack Orientation="Orientation.Horizontal" Gap="1" JustifyContent="JustifyContent.SpaceEvenly" Wrap="FlexWrap.Wrap">
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Projets <MatIcon Icon="@MatIconNames.Poll" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalProjet
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Projets en cours <MatIcon Icon="@MatIconNames.Poll" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalProjetEncour
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Projets terminés <MatIcon Icon="@MatIconNames.Poll" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalProjetTerminer
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Projets annulés <MatIcon Icon="@MatIconNames.Poll" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalProjetAnuller
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Projets En Retard <MatIcon Icon="@MatIconNames.Poll" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalProjetEnRetard
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+     
+
+    @* </RadzenStack>
+
+    <RadzenStack Orientation="Orientation.Horizontal" class="mt-4" JustifyContent="JustifyContent.SpaceEvenly"> *@
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Collaborateurs <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalProjetEncour
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Collaborateurs actifs <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalCollaborateurActive
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Collaborateurs inactifs <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalCollaborateurnInactive
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Équipes <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalEquipe
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Managers Projet <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalChefProjet
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Manager Projet Actifs <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @acceuil?.TotalChefProjetEncours
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+        <RadzenCard Style="width:200px" class="mb-2 crd">
+            <RadzenStack Orientation="Orientation.Vertical">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    Managers Projets inactifs <MatIcon Icon="@MatIconNames.People" Class="icn"></MatIcon>
+                </RadzenStack>
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center">
+                    @(acceuil?.TotalChefProjet - acceuil?.TotalChefProjetEncours )
+                </RadzenStack>
+            </RadzenStack>
+        </RadzenCard>
+
+
+    </RadzenStack>
+
+</RadzenCard>

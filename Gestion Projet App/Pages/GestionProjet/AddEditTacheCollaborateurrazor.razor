@@ -1,0 +1,30 @@
+﻿
+
+@using Gestion_Projet_App.Models.Entity;
+
+    <div class="my-3">
+        <label class="form-label">Collaborateur</label><br />
+            <RadzenDropDown @bind-Value=@values Data=@collaborateurs TextProperty="@nameof(ApplicationUser.UserName)" ValueProperty="@nameof(ApplicationUser.Id)" Name="DropDownMultipleChips"
+                    Multiple=true AllowClear=false Placeholder="Select Collaborteur" Style="width: 100%; max-width: 400px;" Change="AddEdit" Chips=false></RadzenDropDown>
+        
+    </div>
+    <div>
+     
+    @if(values?.Count > 0 ){
+
+    @foreach (string  i in values)
+    {
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Start"> 
+            
+                <MatIcon Icon="@MatIconNames.Person"></MatIcon>  @collaborateurs.Where(p => p.Id == i).FirstOrDefault()?.UserName 
+                
+            </RadzenStack>
+    }
+    }
+
+</div>
+
+@code {
+
+    
+}

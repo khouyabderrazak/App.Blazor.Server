@@ -1,0 +1,22 @@
+﻿<EditForm Model="@equipeDto" OnValidSubmit="Submit">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+    <div class="row">
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" @bind-value="@equipeDto.Nom" placeholder="Nom">
+        </div>
+
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Chef d'équipe</label>
+            <RadzenDropDown @bind-Value=@equipeDto.ChefId Data=@collaborateurs TextProperty="UserName" ValueProperty="Id" Style="width: 100%; max-width: 400px;" Name="DropDownBindValue" />
+        </div>
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success text-white" value="Valider" />
+    </div>
+</EditForm>
+
+@code {
+
+}

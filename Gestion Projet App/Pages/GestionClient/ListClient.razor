@@ -1,0 +1,58 @@
+﻿@page "/clients"
+@attribute [Authorize(Roles ="Admin")]
+
+@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using System.Linq.Dynamic.Core
+@using Gestion_Projet_App.Models.Entity;
+
+<PageTitle>Gestion Clients</PageTitle>
+
+<RadzenCard>
+    <div class="row">
+        <div class="col-sm-5">
+            <input type="text" class="form-control" @bind-value="@searchClientDto.Name" placeholder="Nom complet">
+        </div>
+    </div>
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatIconButton OnClick="@onClearSeatch" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+        <MatIconButton OnClick="@onSearch" Icon="search" Style="color:black !important;">
+        </MatIconButton>
+        <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Client</MatButton>
+    </RadzenStack>
+</RadzenCard>
+
+<RadzenDataGrid @ref="dataGrid" Data="@clients" Count="@count" TItem="Client" LoadData="@getAll" AllowPaging=true PageSize="5" class="mt-3 shadow">
+    <Columns>
+        <RadzenDataGridColumn TItem="Client" Property="Name" Title="Nom" />
+        <RadzenDataGridColumn TItem="Client" Property="Email" Title="Email" />
+        <RadzenDataGridColumn TItem="Client" Property="Address" Title="Adresse" />
+        <RadzenDataGridColumn TItem="Client" Property="Phone" Title="Téléphone" />
+        <RadzenDataGridColumn TItem="Client" Property="Id" Title="Actions">
+            <Template Context="order">
+                <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.Id))">
+                </MatIconButton>
+                <MatIconButton Icon="create" Style="color:dodgerblue !important;" OnClick="@(()=>onUpdate(order))">
+                </MatIconButton>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; clientChange = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditClient client=@clientChange onItemChange="@onItemChange"></AddEditClient>
+        }
+    </MatDialogContent>
+</MatDialog>

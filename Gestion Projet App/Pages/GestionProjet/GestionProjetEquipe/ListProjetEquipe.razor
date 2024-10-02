@@ -1,0 +1,49 @@
+﻿@page "/projet/projetEquipes/{ProjetId:int}"
+@attribute [Authorize(Roles ="Admin")]
+
+@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using System.Linq.Dynamic.Core
+@using Gestion_Projet_App.Models.Entity;
+
+<PageTitle>Gestion Clients</PageTitle>
+
+<RadzenCard>
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Equipe</MatButton>
+    </RadzenStack>
+</RadzenCard>
+
+<RadzenDataGrid @ref="dataGrid" Data="@projetEquipes" Count="@count" TItem="ProjetEquipe" LoadData="@getAll" AllowPaging=true PageSize="5" class="mt-1 shadow">
+    <Columns>
+        <RadzenDataGridColumn TItem="ProjetEquipe" Property="Equipe" Title="Equipe">
+            <Template Context="order">
+                <RadzenText> @order?.Equipe?.Nom</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="ProjetEquipe" Property="Id" Title="Actions">
+            <Template Context="order">
+                <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.Id))">
+                </MatIconButton>
+                <MatIconButton Icon="launch" Style="color:darkslateblue !important;" OnClick="@(() => onVoirDetails((int) order.EquipeId))">
+                </MatIconButton>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; projetEquipeChange = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditProjetEquipe  ProjetId =@ProjetId  onItemChange="@onItemChange"></AddEditProjetEquipe>
+        }
+    </MatDialogContent>
+</MatDialog>

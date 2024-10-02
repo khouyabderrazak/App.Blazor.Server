@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using System.Linq.Dynamic.Core
+@using Gestion_Projet_App.Models;
+
+<PageTitle>Gestion Équipe-Collaborateur</PageTitle>
+
+<RadzenCard>
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Collaborateur</MatButton>
+    </RadzenStack>
+</RadzenCard>
+
+<RadzenDataGrid @ref="dataGrid" Data="@equipeCollaborateurs" Count="@count" TItem="EquipeCollaborateur" LoadData="@getAll" AllowPaging=true PageSize="5" class="shadow">
+    <Columns>
+        <RadzenDataGridColumn TItem="EquipeCollaborateur" Property="Nom" Title="Nom">
+            <Template Context="order">
+                <RadzenText>@order?.Collaborateur?.UserName</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EquipeCollaborateur" Property="Email" Title="Email">
+            <Template Context="order">
+                <RadzenText>@order?.Collaborateur?.Email</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EquipeCollaborateur" Property="Address" Title="Adresse">
+            <Template Context="order">
+                <RadzenText>@order?.Collaborateur?.Address</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EquipeCollaborateur" Property="Phone" Title="Téléphone">
+            <Template Context="order">
+                <RadzenText>@order?.Collaborateur?.PhoneNumber</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+
+        <RadzenDataGridColumn TItem="EquipeCollaborateur" Property="Id" Title="Actions">
+            <Template Context="order">
+                <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.Id))">
+                </MatIconButton>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; equipeCollaborateurChange = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditEquipeCollaborateur EquipeId="@EquipeId" onItemChange="@onItemChange"></AddEditEquipeCollaborateur>
+        }
+    </MatDialogContent>
+</MatDialog>

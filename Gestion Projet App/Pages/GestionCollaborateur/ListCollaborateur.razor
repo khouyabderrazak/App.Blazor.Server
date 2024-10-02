@@ -1,0 +1,81 @@
+﻿@page "/utilisateur"
+@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using System.Linq.Dynamic.Core
+@using Gestion_Projet_App.Models.Entity;
+@* @attribute [Authorize(Roles = "Admin")] *@
+<PageTitle>Gestion Utilisateur</PageTitle>
+
+<RadzenCard>
+    <div class="row">
+        <div class="col-sm-4 mt-2">
+            <input type="text" class="form-control" @bind-value="@SearchCollaborateurDto.LastName" placeholder="Prenom">
+        </div>
+
+        <div class="col-sm-4 mt-2">
+            <input type="text" class="form-control" @bind-value="@SearchCollaborateurDto.FirstName" placeholder="Nom">
+        </div>
+
+        <div class="col-sm-4 mt-2">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="10">
+                Actif <SelectButton Statut="@SearchCollaborateurDto.Active" onValueChange="@((statut) =>{SearchCollaborateurDto.Active = statut; })"></SelectButton>
+            </RadzenStack>
+        </div>
+
+    </div>
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatIconButton OnClick="@onClearSeatch" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+        <MatIconButton OnClick="@onSearch" Icon="search" Style="color:black !important;">
+        </MatIconButton>
+        <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Collaborateur</MatButton>
+    </RadzenStack>
+</RadzenCard>
+<div class="overflow-scroll">
+
+<RadzenDataGrid @ref="dataGrid" Data="@collaborateurs" Count="@count" TItem="ApplicationUser" LoadData="@getAll" AllowPaging=true PageSize="5" class="mt-3 shadow">
+    <Columns>
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="FirstName" Title="Nom" />
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="Nom" Title="Prenom" />
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="Email" Title="Email" />
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="Address" Title="Adresse" />
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="PhoneNumber" Title="Téléphone" />
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="Active" Title="Actif">
+            <Template Context="order">
+                <RadzenText>
+                    @(order.Active == true ? "Oui" : "Non" )
+                </RadzenText>
+            </Template>
+         </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="ApplicationUser" Property="Id" Title="Actions">
+            <Template Context="order">
+                <div class="d-flex overflow-auto">
+                    <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.Id))">
+                    </MatIconButton>
+                    <MatIconButton Icon="create" Style="color:dodgerblue !important;" OnClick="@(()=>onUpdate(order))">
+                    </MatIconButton>
+                    <MatIconButton Icon="launch" Style="color:darkslateblue !important;" OnClick="@(()=>onVoirDetails(order.Id))">
+                    </MatIconButton>
+                </div>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+</div>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; collaborateurChange = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditCollaborateur onItemChange="@onItemChange"></AddEditCollaborateur>
+        }
+    </MatDialogContent>
+</MatDialog>

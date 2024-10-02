@@ -1,0 +1,46 @@
+﻿<EditForm Model="@Input" OnValidSubmit="Submit">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+    <div class="row">
+
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" @bind-value="@Input.Email" placeholder="name@example.com">
+        </div>
+
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Nom Complet</label>
+            <input type="text" class="form-control" @bind-value="@Input.FirstName" placeholder="Nom complet">
+        </div>
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Nom Complet</label>
+            <input type="text" class="form-control" @bind-value="@Input.LastName" placeholder="Nom complet">
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Téléphone</label>
+            <input type="text" class="form-control" @bind-value="@Input.PhoneNumber" placeholder="Téléphone">
+        </div>
+
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Adresse</label>
+            <input type="text" class="form-control" @bind-value="@Input.Address" placeholder="Adresse">
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3 col-sm-6">
+            <label class="form-label">Actif</label><br />
+            <div class="col-sm-4">
+                <SelectButton Statut="@Input.Active" onValueChange="@((statut) =>{Input.Active = statut; })"></SelectButton>
+            </div>
+        </div>
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success text-white" value="Valider" />
+    </div>
+</EditForm>
+
+@code {
+
+}

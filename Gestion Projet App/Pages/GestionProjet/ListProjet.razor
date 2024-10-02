@@ -1,0 +1,94 @@
+﻿@page "/projet"
+
+@using System.Security.Claims
+
+@attribute [Authorize]
+
+@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using Gestion_Projet_App.Models;
+<PageTitle>Gestion Projet</PageTitle>
+
+<RadzenCard>
+    <div class="row">
+        <div class="col-sm-4 mb-3">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" @bind-value="@SearchProjetDto.Nom" placeholder="Nom de projet">
+        </div>
+        <div class="col-sm-4 mb-3">
+            <label class="form-label">Date Début</label>
+            <input type="date" class="form-control" @bind-value="@SearchProjetDto.DateDebut" placeholder="La date de début">
+        </div>
+        <div class="col-sm-4 mb-3">
+            <label class="form-label">Date Fin</label>
+            <input type="date" class="form-control" @bind-value="@SearchProjetDto.DateFin" placeholder="La date de fin">
+        </div>
+    </div>
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatIconButton OnClick="@onClearSeatch" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+        <MatIconButton OnClick="@onSearch" Icon="search" Style="color:black !important;">
+        </MatIconButton>
+        @if (user.IsInRole("Admin") || user.IsInRole("ProjetManager"))
+        {
+           <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Projet</MatButton>
+        }
+    </RadzenStack>
+</RadzenCard>
+
+<RadzenDataGrid @ref="dataGrid" Data="@projets" Count="@count" TItem="Projet" LoadData="@getAll" AllowPaging=true PageSize="5" class="mt-3 shadow">
+    <Columns>
+        <RadzenDataGridColumn TItem="Projet" Property="Nom" Title="Nom" />
+        <RadzenDataGridColumn TItem="Projet" Property="Manager" Title="Chef de Projet">
+            <Template Context="order">
+                <RadzenText> @order?.Manager?.UserName</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Projet" Property="Client" Title="Client">
+            <Template Context="order">
+                <RadzenText> @order?.Client?.Name</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Projet" Property="DateDebut" Title="Date de Début" />
+        <RadzenDataGridColumn TItem="Projet" Property="DateFin" Title="Date de Fin" />
+        <RadzenDataGridColumn TItem="Projet" Property="Statut" Title="Statut" />
+        <RadzenDataGridColumn TItem="Projet" Property="Id" Title="Actions">
+            <Template Context="order">
+                <div class="d-flex overflow-auto">
+
+                    @if (_userService.IsUserChefDeProjet(user,order.ManagerID))
+                    {
+                        <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.Id))">
+                        </MatIconButton>
+
+                        <MatIconButton Icon="create" Style="color:dodgerblue !important;" OnClick="@(() => onUpdate(order))">
+                        </MatIconButton>
+                    }
+
+                    <MatIconButton Icon="launch" Style="color:darkslateblue !important;" OnClick="@(()=>onVoirDetails(order.Id))">
+                    </MatIconButton>
+                </div>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; projetChange = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditProjet projet=@projetChange onItemChange="@onItemChange"></AddEditProjet>
+        }
+    </MatDialogContent>
+</MatDialog>
+
+@code
+{
+}

@@ -1,0 +1,49 @@
+﻿@page "/equipes/detailEquipe/{id:int}"
+
+<PageTitle>Détails de l'Équipe</PageTitle>
+
+<RadzenCard class="mb-3">
+
+    <RadzenSteps>
+        <Steps>
+            <RadzenStepsItem Text="Équipe">
+                <div class="row">
+                    <div class="col-sm-6 mb-3">
+                        <label class="form-label">Nom</label>
+                        <input type="text" class="form-control" value="@equipe?.Nom" readonly>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                        <label class="form-label">Chef d'Équipe</label>
+                        <input type="text" class="form-control" value="@equipe?.Chef?.UserName" readonly>
+                    </div>
+                </div>
+            </RadzenStepsItem>
+            <RadzenStepsItem Text="Chef d'Équipe">
+                <div class="row">
+                    <div class="col-sm-3 mb-3">
+                        <label class="form-label">Nom</label>
+                        <input type="text" class="form-control" value="@equipe?.Chef?.UserName" readonly>
+                    </div>
+                    <div class="col-sm-3 mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="text" class="form-control" value="@equipe?.Chef?.Email" readonly>
+                    </div>
+                    <div class="col-sm-3 mb-3">
+                        <label class="form-label">Téléphone</label>
+                        <input type="text" class="form-control" value="@equipe?.Chef?.PhoneNumber" readonly>
+                    </div>
+                    <div class="col-sm-3 mb-3">
+                        <label class="form-label">Adresse</label>
+                        <input type="text" class="form-control" value="@equipe?.Chef?.Address" readonly>
+                    </div>
+                </div>
+            </RadzenStepsItem>
+        </Steps>
+    </RadzenSteps>
+
+</RadzenCard>
+
+@if (equipe.Id != null && equipe.Id != 0)
+{
+    <ListEquipeCollaborateur EquipeId="@equipe.Id"></ListEquipeCollaborateur>
+}

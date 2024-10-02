@@ -1,0 +1,37 @@
+﻿@using Gestion_Projet_App.Models;
+
+<EditForm Model="@tacheDto" OnValidSubmit="Submit">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+    <div class="row">
+        <div class="col-sm-6">
+            @*   <div>
+            <label class="form-label">Titre</label>
+            <input type="text" class="form-control" @bind-value="@tacheDto.Nom" placeholder="Nom Projet">
+            </div> *@
+            <div class="mb-3">
+                <label class="form-label">Détails</label>
+                <textarea type="text" cols="20" rows="10" class="form-control" @bind="@tacheDto.Description" placeholder="Description"></textarea>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label">Date Limite</label>
+                <input type="date" class="form-control" @bind-value="@tacheDto.DateFin" placeholder="Date de Fin">
+            </div>
+            @if (tacheDto?.Id != null)
+            {
+                <AddEditTacheCollaborateurrazor tacheId="@tacheDto?.Id"></AddEditTacheCollaborateurrazor>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3">
+            <input type="submit" class="btn btn-success text-white" value="Valider" />
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    ICollection<int> values = new List<int>();
+}

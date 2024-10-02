@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using System.Linq.Dynamic.Core
+@using Gestion_Projet_App.Models;
+
+<RadzenCard>
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Role</MatButton>
+    </RadzenStack>
+</RadzenCard>
+
+<RadzenDataGrid @ref="dataGrid" Data="@userRoles" Count="@count" TItem="Item" LoadData="@getAll" AllowPaging=true PageSize="5" class="shadow mt-1">
+    <Columns>
+
+        <RadzenDataGridColumn TItem="Item" Property="rolename" Title="Role">
+            <Template Context="order">
+                 <RadzenText>@order?.roleName</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+
+        <RadzenDataGridColumn TItem="Item" Property="id" Title="Actions">
+            <Template Context="order">
+                <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.roleName))">
+                </MatIconButton>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditUserRole User="@User" onItemChange="@onItemChange"></AddEditUserRole>
+        }
+    </MatDialogContent>
+</MatDialog>

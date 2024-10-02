@@ -1,0 +1,66 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Gestion Projet App</PageTitle>
+
+<div class="page overflow-hidden">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+    <main class="vh-100 d-flex flex-column">
+        <div class="top-row px-4">
+            <LoginDisplay />
+        </div>
+
+        <article class="content px-4 h-auto d-flex flex-column flex-grow-1 overflow-scroll">
+                <RadzenComponents />
+                <RadzenCard class="p-0  flex-grow-1 bg-transparent">
+                    @Body
+                </RadzenCard>
+                <RadzenCard class="my-2">
+                    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Center">
+                       <RadzenText>
+                           &copy; abderrazzak khouy 2024
+                       </RadzenText>  
+                    </RadzenStack>
+                </RadzenCard>
+        </article>
+    </main>
+</div>
+
+@* <RadzenLayout Style="grid-template-columns: auto 1fr auto; grid-template-areas: 'rz-header rz-header rz-header' 'rz-sidebar rz-body rz-right-sidebar'">
+    <RadzenHeader>
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.SpaceBetween" Gap="0">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
+                <RadzenSidebarToggle Click="@(() => leftSidebarExpanded = !leftSidebarExpanded)" />
+                <RadzenLabel Text="SyncWork" />
+            </RadzenStack>
+
+            <LoginDisplay></LoginDisplay>
+        </RadzenStack>
+    </RadzenHeader>
+    <RadzenSidebar @bind-Expanded="@leftSidebarExpanded" style="border:none !important" class="shadow text-dark bg-dark" >
+   
+            <NavMenu></NavMenu>
+    
+    </RadzenSidebar>
+
+    <RadzenBody>
+        <div class="px-3 h-100 d-flex flex-column">
+            <RadzenComponents />
+            <div class="py-4 flex-grow-1">
+                @Body
+            </div>
+        <RadzenCard> 
+            <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Center" AlignItems="AlignItems.Center">
+                &copy; abderrazzak khouy 2024
+            </RadzenStack>
+        </RadzenCard>
+        </div>
+    </RadzenBody>
+ 
+</RadzenLayout>
+
+@code {
+    bool leftSidebarExpanded = true;
+    bool rightSidebarExpanded = true;
+} *@

@@ -1,0 +1,60 @@
+﻿@page "/equipes"
+@attribute [Authorize(Roles = "Admin")]
+@using Microsoft.AspNetCore.Identity
+@inject HttpClient Http
+@inject DialogService DialogService
+@using System.Linq.Dynamic.Core
+@using Gestion_Projet_App.Models;
+<PageTitle>Gestion des Équipes</PageTitle>
+
+<RadzenCard>
+    <div class="row">
+        <div class="col-sm-5">
+            <input type="text" class="form-control" @bind-value="@searchEquipeDto.Nom" placeholder="Nom complet">
+        </div>
+    </div>
+
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" AlignItems="AlignItems.Center" class="mt-2">
+        <MatIconButton OnClick="@onClearSeatch" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+        <MatIconButton OnClick="@onSearch" Icon="search" Style="color:black !important;">
+        </MatIconButton>
+        <MatButton OnClick="@onAjouter" Raised="true" Class="bg-success">Ajouter Équipe</MatButton>
+    </RadzenStack>
+</RadzenCard>
+
+<RadzenDataGrid @ref="dataGrid" Data="@equipes" Count="@count" TItem="Equipe" LoadData="@getAll" AllowPaging=true PageSize="5" class="mt-3 shadow">
+    <Columns>
+        <RadzenDataGridColumn TItem="Equipe" Property="Nom" Title="Nom" />
+        <RadzenDataGridColumn TItem="Equipe" Property="Chef" Title="Chef d'Équipe">
+            <Template Context="order">
+                <RadzenText>@order?.Chef?.UserName</RadzenText>
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Equipe" Property="Id" Title="Actions">
+            <Template Context="order">
+                <MatIconButton Icon="delete_forever" Style="color:red !important;" OnClick="@(_ => onDelete(order.Id))">
+                </MatIconButton>
+                <MatIconButton Icon="create" Style="color:dodgerblue !important;" OnClick="@(() => onUpdate(order))">
+                </MatIconButton>
+                <MatIconButton Icon="launch" Style="color:darkslateblue !important;" OnClick="@(() => onVoirDetails(order.Id))">
+                </MatIconButton>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+<MatDialog @bind-IsOpen="@dialogIsOpen">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <MatDialogTitle><span class="bg-light p-1 text-dark rounded fw-light">@title</span></MatDialogTitle>
+        <MatIconButton OnClick="@(e => { dialogIsOpen = false; equipeChange = null; })" Icon="clear" Style="color:black !important;">
+        </MatIconButton>
+    </RadzenStack>
+
+    <MatDialogContent>
+        @if (dialogIsOpen)
+        {
+            <AddEditEquipe equipe="@equipeChange" onItemChange="@onItemChange"></AddEditEquipe>
+        }
+    </MatDialogContent>
+</MatDialog>

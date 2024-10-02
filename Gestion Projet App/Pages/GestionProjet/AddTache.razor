@@ -1,0 +1,14 @@
+﻿
+<EditForm Model="@tacheDto" OnValidSubmit="Submit" style="min-width:300px" >
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <div class="row">
+    <div class="mb-3 col-sm-12">
+        <label class="form-label">Nom </label>
+        <input type="text" class="form-control" @bind-value="@tacheDto.Nom" placeholder="Nom Projet">
+    </div>
+    </div>
+    <div class="mb-3">
+        <input type="submit" class="btn btn-success text-white" value="valider" />
+    </div>
+</EditForm>

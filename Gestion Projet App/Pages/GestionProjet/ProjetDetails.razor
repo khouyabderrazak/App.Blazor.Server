@@ -1,0 +1,95 @@
+﻿@page "/projet/details/{id:int}"
+@using Gestion_Projet_App.Models.outher
+@using Gestion_Projet_App.Pages.GestionProjet.GestionProjetEquipe;
+<PageTitle>Détails du Projet</PageTitle>
+
+<RadzenCard>
+    <div class="row">
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" @bind-value="@projet.Nom" readonly>
+        </div>
+        <div class="col-sm-6 mb-3">
+            <label class="form-label">Description</label>
+            <input type="text" class="form-control" @bind-value="@projet.Description" readonly>
+        </div>
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Date de Début</label>
+            <input type="date" class="form-control" @bind-value="@projet.DateDebut" readonly>
+        </div>
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Date de Fin</label>
+            <input type="date" class="form-control" @bind-value="@projet.DateFin" readonly>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 mb-3">
+            <label class="form-label">Statut</label>
+            <input type="text" class="form-control" @bind-value="@projet.Statut" readonly>
+        </div>
+        @if (_userService.IsUserChefDeProjet(user,projet.ManagerID))
+        {
+        <div class="col-sm-8">
+            <label class="form-label"></label>
+            <div class="d-flex gap-2 mt-2">
+                @if (projet.Statut == ProjetStatus.Creation)
+                {
+                    <button class="btn btn-primary d-flex" @onclick="lancer">Lancer</button>
+                }
+
+                @if (projet.Statut == ProjetStatus.EnCours)
+                {
+                    <button class="btn btn-warning text-white d-flex" @onclick="delancer">Annuler le lancement</button>
+                    <button class="btn btn-success d-flex" @onclick="valider">Valider</button>
+                }
+
+                @if (projet.Statut == ProjetStatus.Termine)
+                {
+                    <button class="btn btn-warning text-white d-flex" @onclick="invalider">Invalider</button>
+                }
+
+                <button class="btn btn-danger d-flex" @onclick="annuler">Annuler</button>
+
+                @if (projet.Statut == ProjetStatus.Annuler)
+                {
+                    <button class="btn btn-primary text-white d-flex" @onclick="@Repris">Repris</button>
+                }
+                
+            </div>
+        </div>
+        }
+    </div>
+</RadzenCard>
+
+@if (_userService.IsUserChefDeProjet(user, projet.ManagerID))
+{
+    
+<RadzenSteps class="mt-2">
+        <Steps>
+            <RadzenStepsItem Text="Taches">
+
+            @if (projet.Id != null && projet.Id != 0)
+            {
+                <ListTache Projetid="@projet.Id"></ListTache>
+            }
+
+            </RadzenStepsItem>
+
+        <RadzenStepsItem Text="Equipes">
+
+            @if (projet.Id != null && projet.Id != 0)
+            {
+                <ListProjetEquipe ProjetId=@projet.Id ></ListProjetEquipe>
+            }
+
+        </RadzenStepsItem>
+        </Steps>   
+    </RadzenSteps>
+}
+else
+{
+    @if (projet.Id != null && projet.Id != 0)
+    {
+        <ListTache Projetid="@projet.Id"></ListTache>
+    }
+}

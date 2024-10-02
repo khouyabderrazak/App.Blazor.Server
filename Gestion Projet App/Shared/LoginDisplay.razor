@@ -1,0 +1,10 @@
+﻿<CascadingAuthenticationState>
+    <AuthorizeView>
+        <Authorized>
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
+               <a href="Identity/Account/Manage" class="text-decoration-none fw-bold">Hello, @context.User.Identity?.Name</a>
+                <btn class="btn btn-transparent text-primary fw-bold" onclick="@logout">Log out</btn>
+            </RadzenStack>
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>

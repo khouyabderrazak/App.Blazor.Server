@@ -1,0 +1,39 @@
+﻿@page "/collaborateur/details/{id}"
+
+@using Gestion_Projet_App.Models.outher
+@using Gestion_Projet_App.Pages.GestionProjet.GestionProjetEquipe;
+@using Gestion_Projet_App.Pages.GestionCollaborateur.GestionRoles
+
+<PageTitle>Détails du Projet</PageTitle>
+<RadzenCard class="mb-2">
+    <div class="row">
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" @bind-value="@user.FirstName" readonly>
+        </div>
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Prenom</label>
+            <input type="text" class="form-control" @bind-value="@user.LastName" readonly>
+        </div>
+        <div class="col-sm-4 mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" @bind-value="@user.Email" readonly>
+        </div>
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Address</label>
+            <input type="text" class="form-control" @bind-value="@user.Address" readonly>
+        </div>
+        <div class="col-sm-2 mb-3">
+            <label class="form-label">Telephone</label>
+            <input type="text" class="form-control" @bind-value="@user.PhoneNumber" readonly>
+        </div>
+
+    </div>
+</RadzenCard>
+
+
+
+        @if (user.Id != null)
+{
+    <ListUserRoles User="@user"></ListUserRoles>
+}

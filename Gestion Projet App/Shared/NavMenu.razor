@@ -1,0 +1,79 @@
+﻿<div class="top-row ps-3 navbar bg-primary">
+    <div class="container-fluid bg-primary">
+        <RadzenStack class="navbar-brand" Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
+             <img src="images/logo1.png" style="width:30px;" />
+             <a class="navbar-brand text-white" href="">SyncWork</a>
+        </RadzenStack>
+        <button title="Menu de navigation" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <MatIcon Icon="@MatIconNames.Menu" Class="text-white"></MatIcon>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable bg-primary h-100 shadow" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <CascadingAuthenticationState>
+            <AuthorizeView>
+                <Authorized>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                            <MatIcon Icon="@MatIconNames.Home" Class="me-3"></MatIcon> Accueil
+                        </NavLink>
+                    </div>
+
+                    <!-- Liens visibles pour tous les utilisateurs authentifiés -->
+                       <AuthorizeView Context="col" Roles="Admin">
+
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="utilisateur">
+                            <MatIcon Icon="@MatIconNames.People" Class="me-3"></MatIcon> Collaborateurs
+                        </NavLink>
+                    </div>
+                       </AuthorizeView>
+
+                    <!-- Lien visible uniquement pour les utilisateurs avec le rôle "Manager" -->
+                    <AuthorizeView Context="equi" Roles="Admin">
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="equipes">
+                                <MatIcon Icon="@MatIconNames.People" Class="me-3"></MatIcon> Équipes
+                            </NavLink>
+                        </div>
+                    </AuthorizeView>
+
+                    <!-- Lien visible uniquement pour les utilisateurs avec le rôle "Admin" -->
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="projet">
+                                <MatIcon Icon="@MatIconNames.Poll" Class="me-3"></MatIcon> Projets
+                            </NavLink>
+                        </div>
+
+                    <!-- Lien visible pour les utilisateurs avec le rôle "Client" -->
+                    <AuthorizeView Context="cli" Roles="Admin">
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="clients">
+                                <MatIcon Icon="@MatIconNames.People" Class="me-3"></MatIcon> Clients
+                            </NavLink>
+                        </div>
+
+                    </AuthorizeView>
+                </Authorized>
+
+                <!-- Redirection pour les utilisateurs non autorisés -->
+                <NotAuthorized>
+                    <RedirectToLogin></RedirectToLogin>
+                </NotAuthorized>
+            </AuthorizeView>
+        </CascadingAuthenticationState>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
