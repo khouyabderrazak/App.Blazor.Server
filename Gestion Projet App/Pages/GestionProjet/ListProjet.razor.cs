@@ -45,6 +45,7 @@ namespace Gestion_Projet_App.Pages.GestionProjet
             if (authenticationState is not null)
             {
                 var authState = await authenticationState;
+                // return claimsPrincipal that descripe the current User.
                 user = authState?.User;
 
             }

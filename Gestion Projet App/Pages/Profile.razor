@@ -1,0 +1,62 @@
+﻿@page "/profile"
+@attribute [Authorize]
+
+<RadzenCard class="">
+    <div class="d-flex justify-content-between mb-1">
+    <h4>
+        Profile
+    </h4>
+    @if (!onModifier)
+    {
+        <MatButton Label="Modifier" OnClick="()=>{ onModifier=true;}" Raised="true" Class="bg-success"></MatButton>
+    }
+    </div>
+    <MatDivider/>
+<EditForm Model="@Input" class="mt-3" OnValidSubmit="Submit">
+    <ValidationSummary />
+    <DataAnnotationsValidator />
+    <div class="row">
+
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" @bind-value="@Input.Email" placeholder="name@example.com">
+        </div>
+
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" @bind-value="@Input.FirstName" placeholder="Nom">
+        </div>
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Prenom</label>
+            <input type="text" class="form-control" @bind-value="@Input.LastName" placeholder="Prenom">
+        </div>
+    </div>
+    <div class="row">
+            <div class="mb-3 col-sm-4">
+                <label class="form-label">UserName</label>
+                <input type="text" class="form-control" @bind-value="@Input.UserName" placeholder="Adresse">
+            </div>
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Téléphone</label>
+            <input type="text" class="form-control" @bind-value="@Input.PhoneNumber" placeholder="Téléphone">
+        </div>
+
+        <div class="mb-3 col-sm-4">
+            <label class="form-label">Adresse</label>
+            <input type="text" class="form-control" @bind-value="@Input.Address" placeholder="Adresse">
+        </div>
+
+    </div>
+        @if (onModifier)
+        {
+          <div class="mb-3">
+             <input type="submit" class="btn btn-success text-white" value="Valider" />
+         </div>
+        }
+</EditForm>
+</RadzenCard>
+
+@code {
+
+}
+

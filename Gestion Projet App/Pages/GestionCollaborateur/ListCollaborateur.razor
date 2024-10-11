@@ -1,4 +1,5 @@
 ﻿@page "/utilisateur"
+@attribute [Authorize]
 @using Microsoft.AspNetCore.Identity
 @inject HttpClient Http
 @inject DialogService DialogService
@@ -75,7 +76,7 @@
     <MatDialogContent>
         @if (dialogIsOpen)
         {
-            <AddEditCollaborateur onItemChange="@onItemChange"></AddEditCollaborateur>
+            <AddEditCollaborateur UserApp=collaborateurChange onItemChange="@onItemChange"></AddEditCollaborateur>
         }
     </MatDialogContent>
 </MatDialog>

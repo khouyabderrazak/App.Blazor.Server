@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "olUpvURPm8Uhj7aWqV280KApM5VCi8bfNW54ySwzIi0=",
+  "Hash": "dh93F1mN+ddRMWjFJXiayd0iAB37sI0zln2FEGDbNaM=",
   "Source": "Gestion Projet App",
   "BasePath": "_content/Gestion Projet App",
   "Mode": "Default",
@@ -2373,6 +2373,25 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
+      "Identity": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\images\\logo1 - Copier.png",
+      "SourceId": "Gestion Projet App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\",
+      "BasePath": "_content/Gestion Projet App",
+      "RelativePath": "images/logo1 - Copier.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo1 - Copier.png"
+    },
+    {
       "Identity": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\images\\logo1.png",
       "SourceId": "Gestion Projet App",
       "SourceType": "Discovered",
@@ -2409,6 +2428,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\s1.gif"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\logo1.png",
+      "SourceId": "Gestion Projet App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\",
+      "BasePath": "_content/Gestion Projet App",
+      "RelativePath": "logo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo1.png"
     }
   ]
 }

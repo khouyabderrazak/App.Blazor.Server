@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Gestion_Projet_App.Areas.Identity.Pages.Account;
 using Gestion_Projet_App.Models;
 using Gestion_Projet_App.Models.Dto;
 using Gestion_Projet_App.Models.Dto.Client;
@@ -21,6 +22,7 @@ namespace Gestion_Projet_App
             CreateMap<EquipeDto, Equipe>().ReverseMap();
             CreateMap<EquipeCollaborateurDto, EquipeCollaborateur>().ReverseMap();
             CreateMap<ProjetEquipeDto, ProjetEquipe>().ReverseMap();
+            CreateMap<ApplicationUser, RegisterModel.InputModel>().ReverseMap();
         }
     }
 }

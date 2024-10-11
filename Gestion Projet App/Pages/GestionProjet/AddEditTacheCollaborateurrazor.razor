@@ -1,15 +1,21 @@
 ﻿
 
 @using Gestion_Projet_App.Models.Entity;
-
-    <div class="my-3">
-        <label class="form-label">Collaborateur</label><br />
+     
+    @if (! onAjouter )
+     {
+         <button @onclick="()=>{onAjouter = true;}" type="button" class="btn btn-primary text-white my-2 w-100">Ajouter Collaborateur</button>
+     }
+     else
+     {
+       <div class="my-3 shadow p-2">
+        <label class="form-label">Ajouter Collaborateur <MatIconButton Icon="@MatIconNames.Clear" OnClick="()=>{ onAjouter = false; }"></MatIconButton> </label><br />
             <RadzenDropDown @bind-Value=@values Data=@collaborateurs TextProperty="@nameof(ApplicationUser.UserName)" ValueProperty="@nameof(ApplicationUser.Id)" Name="DropDownMultipleChips"
                     Multiple=true AllowClear=false Placeholder="Select Collaborteur" Style="width: 100%; max-width: 400px;" Change="AddEdit" Chips=false></RadzenDropDown>
-        
-    </div>
+       </div>
+     }
     <div>
-     
+    
     @if(values?.Count > 0 ){
 
     @foreach (string  i in values)
@@ -21,7 +27,26 @@
             </RadzenStack>
     }
     }
-
+    @if(!onDelete)
+    {
+        <RadzenStack Orientation
+        ="Orientation.Horizontal" AlignItems
+        ="AlignItems.Center" JustifyContent
+        ="JustifyContent.Start" class="px-1 border mt-2" Style="background-color:azure">
+            <span>supprimer tache</span> <MatIconButton Icon="@MatIconNames.Delete" Style="color:red !important;" title="supprimer tache" OnClick="()=>{onDelete = true; }">
+        </MatIconButton>
+    </RadzenStack>
+    }
+    else
+    {
+      <RadzenStack Orientation="Orientation.Vertical" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Start" class="mt-2 shadow p-1 border">
+            <p>Êtes-vous sûr de vouloir supprimer ce Tache ??</p>
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Start">
+            <MatButton Label="Ok" OnClick="@supprimerTache"></MatButton>
+            <MatButton Label="NO" Type="button" OnClick="()=>{ onDelete=false; }" ></MatButton>
+        </RadzenStack>
+      </RadzenStack>
+    }
 </div>
 
 @code {

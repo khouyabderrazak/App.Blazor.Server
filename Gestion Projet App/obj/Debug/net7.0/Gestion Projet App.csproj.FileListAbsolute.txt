@@ -252,6 +252,7 @@ C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net
 C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\Gestion Projet App.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\Gestion Projet App.RazorAssemblyInfo.cache
 C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\Gestion Projet App.RazorAssemblyInfo.cs
+C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\Gestion Projet App.sourcelink.json
 C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\lenovo\source\repos\Gestion Projet App\Gestion Projet App\obj\Debug\net7.0\staticwebassets\msbuild.Gestion Projet App.Microsoft.AspNetCore.StaticWebAssets.props

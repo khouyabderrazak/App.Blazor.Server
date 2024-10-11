@@ -11,31 +11,37 @@ namespace Gestion_Projet_App.Pages.GestionProjet
     public partial class AddEditTacheCollaborateurrazor
     {
      
-         public TacheCollaborateurDto? tacheCollaborateurDto { get; set; }
+        public TacheCollaborateurDto? tacheCollaborateurDto { get; set; }
 
-         [Inject]
-         private ICollaborateurService service { get; set; }
+        [Inject]
+        private ICollaborateurService service { get; set; }
         [Inject]
 
         private ITacheCollaborateursService? tacheCollaborateursService { get; set; }
 
-         public ICollection<ApplicationUser> collaborateurs { get; set; }
+        [Inject]
+        private ITacheService? tacheService { get; set; } 
+        public ICollection<ApplicationUser> collaborateurs { get; set; }
 
         [Parameter]
-         public int? tacheId { get; set; }
+        public int? tacheId { get; set; }
+
+        public bool onDelete { get; set; } = false;
+        public bool onAjouter { get; set; } = false;
 
         IList<string> values = new List<string>();
         IList<string> valuesCopy = new List<string>();
 
         protected override async Task OnInitializedAsync()
         {
-
-            collaborateurs = await service.All();
             base.OnInitializedAsync();
         }
 
         protected override async Task OnParametersSetAsync()
         {
+
+            collaborateurs = await service.AllFromProjetEquipes((int)tacheId);
+
             List<TacheCollaborateur> tacheCollaborateurs= await  this.tacheCollaborateursService.All((int) tacheId);
 
             foreach(TacheCollaborateur tacheCol in tacheCollaborateurs)
@@ -51,7 +57,6 @@ namespace Gestion_Projet_App.Pages.GestionProjet
         {
             if(values.Count > valuesCopy.Count)
             {
-
                 string collaborateurId = values.Where(p => valuesCopy.IndexOf(p) == -1).First();
                 tacheCollaborateurDto = new TacheCollaborateurDto()
             {
@@ -71,6 +76,12 @@ namespace Gestion_Projet_App.Pages.GestionProjet
 
           //  onItemChange.InvokeAsync();
 
+        }
+
+        async Task supprimerTache()
+        {
+            await tacheService.Delete((int) tacheId);
+            onDelete = false;
         }
 
     }

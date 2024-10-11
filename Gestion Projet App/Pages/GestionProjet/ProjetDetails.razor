@@ -66,6 +66,7 @@
     
 <RadzenSteps class="mt-2">
         <Steps>
+
             <RadzenStepsItem Text="Taches">
 
             @if (projet.Id != null && projet.Id != 0)
@@ -81,14 +82,13 @@
             {
                 <ListProjetEquipe ProjetId=@projet.Id ></ListProjetEquipe>
             }
-
         </RadzenStepsItem>
         </Steps>   
     </RadzenSteps>
 }
 else
 {
-    @if (projet.Id != null && projet.Id != 0)
+    @if (projet.Id != null && projet.Id != 0 && (projet.Statut == ProjetStatus.EnCours || projet.Statut == ProjetStatus.Termine))
     {
         <ListTache Projetid="@projet.Id"></ListTache>
     }

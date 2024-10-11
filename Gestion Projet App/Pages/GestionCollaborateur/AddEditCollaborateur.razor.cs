@@ -16,9 +16,13 @@ namespace Gestion_Projet_App.Pages.GestionCollaborateur
 
         [Inject]
         private UserManager<ApplicationUser> _userManager { get; set; }
+        [Inject]
+        private IUserStore<ApplicationUser> _userStore { get; set; }
 
         [Inject]
         private ILogger<RegisterModel> _logger { get; set; }
+        [Inject]
+        private IMapper _mapper { get; set; }
 
         public RegisterModel.InputModel Input { get; set; }
 
@@ -29,14 +33,27 @@ namespace Gestion_Projet_App.Pages.GestionCollaborateur
 
         public int CollaborateurId { get; set; }
 
+        [Inject]
+        public UserManager<ApplicationUser> userManager { get; set; }
+
+        [Parameter]
+        public ApplicationUser? UserApp { get; set; }
         protected override async Task OnInitializedAsync()
         {
             Input = new RegisterModel.InputModel();
-
             await GetCollaborateurs();
-
             await base.OnInitializedAsync();
         }
+
+        protected override Task OnParametersSetAsync()
+        {
+            if(UserApp != null)
+            {
+                Input = _mapper.Map<RegisterModel.InputModel>(UserApp);
+            }
+            return base.OnParametersSetAsync();
+        }
+
 
         async Task GetCollaborateurs()
         {
@@ -48,18 +65,30 @@ namespace Gestion_Projet_App.Pages.GestionCollaborateur
 
         public async Task Submit()
         {
-            var user = new ApplicationUser { 
-                 UserName = Input.FirstName + Input.LastName
-                , Email = Input.Email
-                ,FirstName = Input.FirstName
-                ,LastName = Input.LastName
-                ,Active = Input.Active
-                ,Address = Input.Address
-                ,PhoneNumber = Input.PhoneNumber
-            };
+            if (UserApp!=null)
+            {
+                UserApp = _mapper.Map<ApplicationUser>(Input);
+                //await _collaborateurService.Save(UserApp);
+                var res=  await _userStore.UpdateAsync(UserApp,CancellationToken.None);
+                if (res.Succeeded)
+                {
+                Input = new RegisterModel.InputModel();
 
+                await onItemChange.InvokeAsync();
+
+                }
+                //await userManager.UpdateAsync(UserApp);
+
+            }
+            else
+            {
+
+            var user = _mapper.Map<ApplicationUser>(Input);
+            
+            user.UserName = Input.FirstName + Input.LastName.Substring(0, 1).ToUpper() + Input.LastName.Substring(1);
+            
             Input.Password = (Input.FirstName.Substring(0, 1).ToUpper().Trim() + Input.FirstName.Substring(1).Trim() + "123@").Trim();
-
+            
             var result = await _userManager.CreateAsync(user, Input.Password);
 
             if (result.Succeeded)
@@ -67,13 +96,19 @@ namespace Gestion_Projet_App.Pages.GestionCollaborateur
                 _logger.LogInformation("User created a new account with password.");
 
                 var userId = await _userManager.GetUserIdAsync(user);
+               
                 var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                
                 code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-                Input = new RegisterModel.InputModel();
-                await onItemChange.InvokeAsync();
+
+                    Input = new RegisterModel.InputModel();
+
+                    await onItemChange.InvokeAsync();
+                }
+
+
+
             }
-
-
         }
 
     }

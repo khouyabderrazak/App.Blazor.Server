@@ -105,12 +105,20 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
+      "Id": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\images\\logo1 - Copier.png",
+      "PackagePath": "staticwebassets\\images\\logo1 - Copier.png"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\images\\logo1.png",
       "PackagePath": "staticwebassets\\images\\logo1.png"
     },
     {
       "Id": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\images\\s1.gif",
       "PackagePath": "staticwebassets\\images\\s1.gif"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\wwwroot\\logo1.png",
+      "PackagePath": "staticwebassets\\logo1.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Gestion Projet App.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -29,9 +29,6 @@ namespace Gestion_Projet_App.Models
         public ApplicationUser? Manager { get; set; }
 
         public ICollection<ProjetEquipe>? ProjetEquipes { get; set;}
-      
-
-
     }
 
 }

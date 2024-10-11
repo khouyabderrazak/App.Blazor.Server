@@ -1,10 +1,48 @@
-﻿<CascadingAuthenticationState>
+﻿<style>
+    .matItem{
+        color:dodgerblue;
+    }
+    .matItem:hover{
+         background-color:dodgerblue !important;
+         color:white !important;
+         border-radius:6px;
+    }
+</style>
+
+@inject NavigationManager _navigationManger;
+
+<CascadingAuthenticationState>
     <AuthorizeView>
         <Authorized>
             <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center">
-               <a href="Identity/Account/Manage" class="text-decoration-none fw-bold">Hello, @context.User.Identity?.Name</a>
-                <btn class="btn btn-transparent text-primary fw-bold" onclick="@logout">Log out</btn>
+               <span class="text-decoration-none text-primary fw-bold mb-1">Hello, @context.User.Identity?.Name</span>
+                @* <btn class="btn btn-transparent text-primary fw-bold" onclick=""></btn> *@
+                <MatIconButton Icon="@MatIconNames.Account_circle" OnClick="@OnClick" RefBack="@buttonForwardRef" Class="p-0 fs-6 text-primary"></MatIconButton>
+                <MatMenu @ref="Menu" TargetForwardRef="@buttonForwardRef" Class="px-2">
+                    <MatList>
+                        <MatListItem OnClick="@navigate" Class="matItem py-0"><MatIcon Icon="@MatIconNames.Account_circle"></MatIcon> <span class="ms-3">Profile</span></MatListItem>
+                        <MatListItem OnClick="@logout" Class="matItem py-0"><MatIcon Icon="@MatIconNames.Lock"></MatIcon> <span class="ms-3">change password</span></MatListItem>
+                        <MatListItem OnClick="@logout" Class="matItem py-0"><MatIcon Icon="@MatIconNames.Exit_to_app"></MatIcon> <span class="ms-3">Log out</span></MatListItem>
+                    </MatList>
+                </MatMenu>
             </RadzenStack>
         </Authorized>
     </AuthorizeView>
 </CascadingAuthenticationState>
+
+@code
+{
+    ForwardRef buttonForwardRef = new ForwardRef();
+    BaseMatMenu Menu;
+
+    public void navigate()
+    {
+        _navigationManger.NavigateTo("/profile");
+    }
+
+    public void OnClick(MouseEventArgs e)
+    {
+        this.Menu.OpenAsync();
+    }
+
+ }

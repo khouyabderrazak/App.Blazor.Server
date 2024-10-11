@@ -43,8 +43,8 @@ namespace Gestion_Projet_App.Pages.GestionProjet
 
         protected override async Task OnParametersSetAsync()
         {
-            
-             await SetTaches();
+            if(taches.Count==0)
+                 await SetTaches();
 
             await base.OnParametersSetAsync();
         }

@@ -11,5 +11,6 @@ namespace Gestion_Projet_App.Interfaces
         Task<List<ApplicationUser>>  Search(SearchCollaborateurDto request);
         Task<List<ApplicationUser>> All();
         Task<ApplicationUser> Single(string id);
+        Task<List<ApplicationUser>> AllFromProjetEquipes(int tacheId);
      }
 }

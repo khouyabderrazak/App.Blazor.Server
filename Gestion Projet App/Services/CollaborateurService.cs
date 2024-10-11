@@ -38,6 +38,31 @@ namespace Gestion_Projet_App.Services
             }
         }
 
+        public async Task<List<ApplicationUser>> AllFromProjetEquipes(int tacheId)
+        {
+            using (var _context = _contextFactory.CreateDbContext())
+            {
+                 
+                 List<ApplicationUser> collaborateurs =await  _context.Taches
+                    
+                .Include(t => t.Projet)
+                .ThenInclude(t => t.ProjetEquipes)
+                .ThenInclude(t => t.Equipe)
+                .ThenInclude(t => t.EquipeCollaborateurs)
+
+                .Where(t => t.Id == tacheId)
+                
+                .Select(p => p.Projet)
+                .SelectMany(p => p.ProjetEquipes)
+                .Select(p => p.Equipe)
+                .SelectMany(p => p.EquipeCollaborateurs).Select(p=>p.Collaborateur).ToListAsync();
+
+               
+
+                return collaborateurs;
+            }
+        }
+
         public async Task<bool> Delete(string id)
         {
             using (var _context = _contextFactory.CreateDbContext())
@@ -105,5 +130,7 @@ namespace Gestion_Projet_App.Services
                 return await _context.Users.FirstOrDefaultAsync(p => p.Id == id);
             }
         }
+
+
     }
 }

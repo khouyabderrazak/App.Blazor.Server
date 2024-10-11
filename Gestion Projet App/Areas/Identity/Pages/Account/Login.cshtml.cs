@@ -110,13 +110,16 @@ namespace  Gestion_Projet_App.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
+                //string user_name = ""; // in case 'user' is null (user not found)
+                var user = await _signInManager.UserManager.FindByEmailAsync(Input.Email);
+
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(user?.UserName , Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
+                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
                 {

@@ -7,7 +7,6 @@ using Gestion_Tache_App.Services;
 using MatBlazor;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Radzen;
@@ -23,7 +22,6 @@ builder.Services.AddDbContextFactory<Gestion_Projet_AppContext>(options => {
 builder.Services
     .AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<Gestion_Projet_AppContext>().AddDefaultTokenProviders(); 
-
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
@@ -31,7 +29,6 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddRadzenComponents();
 builder.Services.AddMatBlazor();
-
 builder.Services.AddScoped<HttpClient>();
 builder.Services.AddScoped<DialogService>();
 builder.Services.AddScoped<ICollaborateurService,CollaborateurService>();

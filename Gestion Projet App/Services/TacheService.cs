@@ -32,9 +32,7 @@ namespace Gestion_Tache_App.Services
         {
             using (var _context = _contextFactory.CreateDbContext())
             {
-                bool res = await _matDialogService.ConfirmAsync("Êtes-vous sûr de vouloir supprimer ce Tache ?");
-                if (res)
-                {
+               
                     Tache Tache = await _context.Taches.FirstOrDefaultAsync(p => p.Id == id);
                     if (Tache != null)
                     {
@@ -43,7 +41,7 @@ namespace Gestion_Tache_App.Services
                         _toaster.Add("Tache supprimé avec succès", MatToastType.Success, "Message de succès");
                         return true;
                     }
-                }
+                
                 return false;
             }
         }
