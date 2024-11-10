@@ -3,11 +3,107 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\pages\\gestionclient\\listclient.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionclient\\listclient.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\pages\\gestionclient\\listclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionclient\\listclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\areas\\identity\\revalidatingidentityauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\revalidatingidentityauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\shared\\loader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\loader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\pages\\gestionprojet\\listtache.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\gestionprojet\\addeditprojet.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\addeditprojet.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\gestionprojet\\addeditprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\addeditprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\gestionprojet\\listtache.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\listtache.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,23 +111,11 @@
       "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestioncollaborateur\\listcollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\pages\\gestionprojet\\listprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\pages\\gestionprojet\\listprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\listprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\lenovo\\source\\repos\\gestion projet app\\gestion projet app\\services\\collaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\gestion projet app\\services\\collaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\services\\collaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -66,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +174,269 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListClient.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:28:48.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ListClient.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:28:45.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RevalidatingIdentityAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:49:02.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Services\\ClientService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Services\\ClientService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:05:20.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Loader.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Shared\\Loader.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\Loader.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Shared\\Loader.razor",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\Loader.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T15:48:32.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:13:27.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:13:20.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAgAAADAmJmZmZkewAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:12:06.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABEAAACQZmZmZiYwwBwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:11:01.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:10:58.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T19:26:29.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginDisplay.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T15:48:30.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Index.razor.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Index.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:16:12.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T15:49:03.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAEAAAACAAAAAAAhwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:49:25.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:49:23.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:48:29.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\_Imports.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\_Imports.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\_Imports.razor",
+              "RelativeToolTip": "Gestion Projet App\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:48:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\App.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\App.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\App.razor",
+              "RelativeToolTip": "Gestion Projet App\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:48:01.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddEditProjet.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:09:19.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddEditProjet.razor",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T22:09:14.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "ListTache.razor",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
@@ -98,12 +444,11 @@
               "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T21:59:25.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T21:59:25.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 27,
               "Title": "ListProjet.razor",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
@@ -111,51 +456,47 @@
               "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T21:59:11.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T21:59:11.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Index.razor",
-              "RelativeToolTip": "Gestion Projet App\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Index.razor*",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Index.razor*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T21:04:21.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T21:04:21.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAABxAAAA",
+              "ViewState": "AQIAAEQAAACAaGZmZmYEwAEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T20:58:56.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T20:58:56.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAITMzMzMLwBcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T20:58:55.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T20:58:55.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 28,
               "Title": "CollaborateurService.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Services\\CollaborateurService.cs",
               "RelativeDocumentMoniker": "Gestion Projet App\\Services\\CollaborateurService.cs",
@@ -163,12 +504,11 @@
               "RelativeToolTip": "Gestion Projet App\\Services\\CollaborateurService.cs",
               "ViewState": "AQIAAG4AAAAAAAAAAAAwwHkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:53:14.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T20:53:14.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 33,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Gestion Projet App\\Interfaces\\IUserService.cs",
@@ -180,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 32,
               "Title": "Profile.razor.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Profile.razor.cs",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Profile.razor.cs",
@@ -192,20 +532,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Profile.razor",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Profile.razor",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\Profile.razor",
               "RelativeToolTip": "Gestion Projet App\\Pages\\Profile.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T20:40:58.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T20:40:58.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "AddEditCollaborateur.razor",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor",
@@ -217,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 26,
               "Title": "ListCollaborateur.razor",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
@@ -225,12 +564,11 @@
               "RelativeToolTip": "Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T20:35:21.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T20:35:21.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -242,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -254,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "AddEditCollaborateur.razor.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\Gestion Projet App\\Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor.cs",
               "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor.cs",
