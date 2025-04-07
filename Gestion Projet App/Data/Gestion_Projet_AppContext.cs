@@ -37,5 +37,9 @@ public class Gestion_Projet_AppContext : IdentityDbContext<ApplicationUser>
       .HasForeignKey(e => e.ProjetId)
       .OnDelete(DeleteBehavior.Cascade);
 
+        builder.Entity<ApplicationUser>().HasData(
+           
+        );
+
     }
 }

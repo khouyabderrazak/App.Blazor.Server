@@ -20,3 +20,7 @@ Gestion des équipes : Création et suivi des équipes projet
 Gestion des tâches : Attribution, suivi et mise à jour des tâches par projet
 
 Avec cette application, je souhaite offrir aux gestionnaires et aux équipes de projet une solution complète, ergonomique et facile à prendre en main.
+
+# gestion des taches
+
+![Description](assets/gestionTaches.PNG)

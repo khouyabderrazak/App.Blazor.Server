@@ -11,6 +11,7 @@
         <div class="mb-3 col-sm-4">
             <label class="form-label">Nom</label>
             <input type="text" class="form-control" @bind-value="@Input.FirstName" placeholder="Nom">
+            <ValidationMessage For="()=> Input.FirstName"></ValidationMessage>
         </div>
         <div class="mb-3 col-sm-4">
             <label class="form-label">Prenom</label>

@@ -1,0 +1,953 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\extensions\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\extensions\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestioncollaborateur\\addeditcollaborateur.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestioncollaborateur\\addeditcollaborateur.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestioncollaborateur\\addeditcollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestioncollaborateur\\addeditcollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestioncollaborateur\\listcollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestioncollaborateur\\listcollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\services\\acceuilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\services\\acceuilservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\interfaces\\icollaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\interfaces\\icollaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\shared\\loader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\loader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestioncollaborateur\\collaborateurdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestioncollaborateur\\collaborateurdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\shared\\loader.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\loader.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionequipes\\listequipecollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionequipes\\listequipecollaborateur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionequipes\\listequipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionequipes\\listequipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionequipes\\detailequipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionequipes\\detailequipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionequipes\\addeditequipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionequipes\\addeditequipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestioncollaborateur\\gestionroles\\addedituserrole.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestioncollaborateur\\gestionroles\\addedituserrole.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionclient\\addeditclient.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionclient\\addeditclient.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionclient\\addeditclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionclient\\addeditclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\models\\outher\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\models\\outher\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\data\\gestion_projet_appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\data\\gestion_projet_appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\gestion projet app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\gestion projet app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\models\\entity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\models\\entity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\models\\entity\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\models\\entity\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionclient\\listclient.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionclient\\listclient.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionclient\\listclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionclient\\listclient.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\revalidatingidentityauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\revalidatingidentityauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionprojet\\addeditprojet.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\addeditprojet.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionprojet\\addeditprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\addeditprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionprojet\\listtache.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\listtache.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\gestionprojet\\listprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\gestionprojet\\listprojet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\services\\collaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\services\\collaborateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\pages\\profile.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\pages\\profile.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|c:\\users\\akhouy\\desktop\\projets\\gestion-de-projet\\gestion projet app\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B5F1A9-B2F2-4FA2-A931-F9DAAEC091E0}|Gestion Projet App\\Gestion Projet App.csproj|solutionrelative:gestion projet app\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1691082258:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Loader.razor.css",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\Loader.razor.css",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\Loader.razor.css",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\Loader.razor.css",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\Loader.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-07T13:35:41.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:48:29.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Services\\ClientService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Services\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:05:20.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListCollaborateur.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionCollaborateur\\ListCollaborateur.razor",
+              "ViewState": "AgIAADoAAAAAjpmZmRkWwE4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:35:21.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEditCollaborateur.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:36:14.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEditCollaborateur.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionCollaborateur\\AddEditCollaborateur.razor.cs",
+              "ViewState": "AgIAAAoAAAAAm5mZmRkfwBEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:24:21.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Extensions\\SeedData.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Extensions\\SeedData.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Extensions\\SeedData.cs",
+              "RelativeToolTip": "Gestion Projet App\\Extensions\\SeedData.cs",
+              "ViewState": "AgIAAAUAAAD4//////8wwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:35:53.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CollaborateurDetails.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\CollaborateurDetails.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\CollaborateurDetails.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\CollaborateurDetails.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionCollaborateur\\CollaborateurDetails.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T13:40:00.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:40:08.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICollaborateurService.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Interfaces\\ICollaborateurService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Interfaces\\ICollaborateurService.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Interfaces\\ICollaborateurService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Interfaces\\ICollaborateurService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:40:13.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AcceuilService.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Services\\AcceuilService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Services\\AcceuilService.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Services\\AcceuilService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Services\\AcceuilService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:40:36.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:49:25.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\App.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\App.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\App.razor",
+              "RelativeToolTip": "Gestion Projet App\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:48:01.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Loader.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\Loader.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\Loader.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\Loader.razor",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\Loader.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T15:48:32.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Index.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Index.razor",
+              "ViewState": "AgIAABYAAABgZWZmZmYkwCQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T21:04:21.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Program.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Program.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Program.cs",
+              "RelativeToolTip": "Gestion Projet App\\Program.cs",
+              "ViewState": "AgIAABYAAACQLzMzMzMbwCwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:05:02.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddEditEquipe.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\AddEditEquipe.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionEquipes\\AddEditEquipe.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\AddEditEquipe.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionEquipes\\AddEditEquipe.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T23:20:14.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DetailEquipe.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\DetailEquipe.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionEquipes\\DetailEquipe.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\DetailEquipe.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionEquipes\\DetailEquipe.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T23:20:15.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListEquipe.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\ListEquipe.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionEquipes\\ListEquipe.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\ListEquipe.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionEquipes\\ListEquipe.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T23:20:17.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListEquipeCollaborateur.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\ListEquipeCollaborateur.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionEquipes\\ListEquipeCollaborateur.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionEquipes\\ListEquipeCollaborateur.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionEquipes\\ListEquipeCollaborateur.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T23:20:20.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddEditUserRole.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\GestionRoles\\AddEditUserRole.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionCollaborateur\\GestionRoles\\AddEditUserRole.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionCollaborateur\\GestionRoles\\AddEditUserRole.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionCollaborateur\\GestionRoles\\AddEditUserRole.razor.cs",
+              "ViewState": "AgIAABEAAABAZmZmZmYowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T22:08:33.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\_Imports.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\_Imports.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\_Imports.razor",
+              "RelativeToolTip": "Gestion Projet App\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:48:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:49:23.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddEditClient.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor.cs",
+              "ViewState": "AgIAABQAAACAk5mZmZkJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T22:04:28.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddEditClient.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionClient\\AddEditClient.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T22:04:22.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Models\\outher\\Enum.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Models\\outher\\Enum.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Models\\outher\\Enum.cs",
+              "RelativeToolTip": "Gestion Projet App\\Models\\outher\\Enum.cs",
+              "ViewState": "AgIAAAAAAAAbZmZmZmYkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T22:04:11.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Models\\Entity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Models\\Entity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Models\\Entity\\ApplicationUser.cs",
+              "RelativeToolTip": "Gestion Projet App\\Models\\Entity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:25:34.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Models\\Entity\\Client.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Models\\Entity\\Client.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Models\\Entity\\Client.cs",
+              "RelativeToolTip": "Gestion Projet App\\Models\\Entity\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:25:54.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Gestion_Projet_AppContext.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Data\\Gestion_Projet_AppContext.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Data\\Gestion_Projet_AppContext.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Data\\Gestion_Projet_AppContext.cs",
+              "RelativeToolTip": "Gestion Projet App\\Data\\Gestion_Projet_AppContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:23:16.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Gestion Projet App.csproj",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Gestion Projet App.csproj",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Gestion Projet App.csproj",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Gestion Projet App.csproj",
+              "RelativeToolTip": "Gestion Projet App\\Gestion Projet App.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T17:49:18.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\appsettings.json",
+              "RelativeDocumentMoniker": "Gestion Projet App\\appsettings.json",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\appsettings.json",
+              "RelativeToolTip": "Gestion Projet App\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T18:22:03.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ListClient.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:28:48.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ListClient.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionClient\\ListClient.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:28:45.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RevalidatingIdentityAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\RevalidatingIdentityAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:49:02.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:13:27.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:13:20.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAgAAADAmJmZmZkewAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:12:06.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABEAAACQZmZmZiYwwBwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:11:01.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T20:10:58.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T19:26:29.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginDisplay.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "RelativeToolTip": "Gestion Projet App\\Shared\\LoginDisplay.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T15:48:30.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Index.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Index.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:16:12.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T15:49:03.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddEditProjet.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:09:19.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AddEditProjet.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\AddEditProjet.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T22:09:14.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ListTache.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\ListTache.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T21:59:25.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ListProjet.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\GestionProjet\\ListProjet.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T21:59:11.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAEQAAACAaGZmZmYEwAEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:58:56.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAITMzMzMLwBcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:58:55.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CollaborateurService.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Services\\CollaborateurService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Services\\CollaborateurService.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Services\\CollaborateurService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Services\\CollaborateurService.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAwwHkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:53:14.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Gestion Projet App\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:42:06.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Profile.razor.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Profile.razor.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Profile.razor.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Profile.razor.cs",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Profile.razor.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA5wBcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:41:01.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Profile.razor",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Pages\\Profile.razor",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Pages\\Profile.razor",
+              "RelativeToolTip": "Gestion Projet App\\Pages\\Profile.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:40:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:26:49.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\gestion-de-projet\\Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Gestion Projet App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:26:46.251Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

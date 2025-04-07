@@ -1,5 +1,6 @@
 using Gestion_Projet_App.Areas.Identity;
 using Gestion_Projet_App.Data;
+using Gestion_Projet_App.Extensions;
 using Gestion_Projet_App.Interfaces;
 using Gestion_Projet_App.Models.Entity;
 using Gestion_Projet_App.Services;
@@ -54,6 +55,8 @@ builder.Services.AddMatToaster(config =>
     config.VisibleStateDuration = 3000;
 });
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -63,6 +66,9 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+var scope = app.Services.CreateScope();
+await SeedData.InitializeAsync(scope.ServiceProvider);
 
 app.UseHttpsRedirection();
 
