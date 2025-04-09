@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Gestion_Projet_App.Migrations
 {
     [DbContext(typeof(Gestion_Projet_AppContext))]
-    [Migration("20240912182116_addProjetequipeTable")]
-    partial class addProjetequipeTable
+    [Migration("20250409220341_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -460,7 +460,12 @@ namespace Gestion_Projet_App.Migrations
                     b.Property<string>("RoleId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("RoleId");
 
@@ -524,7 +529,7 @@ namespace Gestion_Projet_App.Migrations
             modelBuilder.Entity("Gestion_Projet_App.Models.EquipeCollaborateur", b =>
                 {
                     b.HasOne("Gestion_Projet_App.Models.Entity.ApplicationUser", "Collaborateur")
-                        .WithMany()
+                        .WithMany("EquipeCollaborateurs")
                         .HasForeignKey("CollaborateurId");
 
                     b.HasOne("Gestion_Projet_App.Models.Equipe", "Equipe")
@@ -611,6 +616,10 @@ namespace Gestion_Projet_App.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
+                    b.HasOne("Gestion_Projet_App.Models.Entity.ApplicationUser", null)
+                        .WithMany("UserRoles")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
@@ -631,6 +640,13 @@ namespace Gestion_Projet_App.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Gestion_Projet_App.Models.Entity.ApplicationUser", b =>
+                {
+                    b.Navigation("EquipeCollaborateurs");
+
+                    b.Navigation("UserRoles");
                 });
 
             modelBuilder.Entity("Gestion_Projet_App.Models.Entity.Client", b =>

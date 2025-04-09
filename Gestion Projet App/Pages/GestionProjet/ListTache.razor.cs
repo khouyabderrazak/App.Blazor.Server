@@ -66,7 +66,7 @@ namespace Gestion_Projet_App.Pages.GestionProjet
         }
 
         Tache draggedItem;
-
+        
         void RowRender(RowRenderEventArgs<Tache> args)
         {
             args.Attributes.Add("title", "Drag row to move it to the other DataGrid");

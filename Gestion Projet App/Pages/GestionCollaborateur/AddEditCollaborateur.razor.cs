@@ -85,9 +85,9 @@ namespace Gestion_Projet_App.Pages.GestionCollaborateur
 
             var user = _mapper.Map<ApplicationUser>(Input);
             
-            user.UserName = Input.FirstName + Input.LastName.Substring(0, 1).ToUpper() + Input.LastName.Substring(1);
+            user.UserName = Input.FirstName.Substring(0,1).ToUpper() + Input.LastName;
             
-            Input.Password = (Input.FirstName.Substring(0, 1).ToUpper().Trim() + Input.FirstName.Substring(1).Trim() + "123@").Trim();
+            Input.Password = (user.UserName + "123@").Trim();
             
             var result = await _userManager.CreateAsync(user, Input.Password);
 
@@ -105,9 +105,6 @@ namespace Gestion_Projet_App.Pages.GestionCollaborateur
 
                     await onItemChange.InvokeAsync();
                 }
-
-
-
             }
         }
 

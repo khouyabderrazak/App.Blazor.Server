@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Gestion_Projet_App.Migrations
 {
     /// <inheritdoc />
-    public partial class createTables : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -69,24 +69,6 @@ namespace Gestion_Projet_App.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Clients", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Collaborateurs",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NomComplet = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Active = table.Column<bool>(type: "bit", nullable: true),
-                    created_at = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Collaborateurs", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -156,7 +138,8 @@ namespace Gestion_Projet_App.Migrations
                 columns: table => new
                 {
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    RoleId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    RoleId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ApplicationUserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -167,6 +150,11 @@ namespace Gestion_Projet_App.Migrations
                         principalTable: "AspNetRoles",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_AspNetUserRoles_AspNetUsers_ApplicationUserId",
+                        column: x => x.ApplicationUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_AspNetUserRoles_AspNetUsers_UserId",
                         column: x => x.UserId,
@@ -202,16 +190,16 @@ namespace Gestion_Projet_App.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nom = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ChefId = table.Column<int>(type: "int", nullable: true),
+                    ChefId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     created_at = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Equipes", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Equipes_Collaborateurs_ChefId",
+                        name: "FK_Equipes_AspNetUsers_ChefId",
                         column: x => x.ChefId,
-                        principalTable: "Collaborateurs",
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id");
                 });
 
@@ -222,27 +210,27 @@ namespace Gestion_Projet_App.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nom = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DateDebut = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    DateFin = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DateDebut = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    DateFin = table.Column<DateTime>(type: "datetime2", nullable: true),
                     Statut = table.Column<int>(type: "int", nullable: true),
                     Budget = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     ClientID = table.Column<int>(type: "int", nullable: true),
-                    ManagerID = table.Column<int>(type: "int", nullable: true),
+                    ManagerID = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     created_at = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Projets", x => x.Id);
                     table.ForeignKey(
+                        name: "FK_Projets_AspNetUsers_ManagerID",
+                        column: x => x.ManagerID,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
                         name: "FK_Projets_Clients_ClientID",
                         column: x => x.ClientID,
                         principalTable: "Clients",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Projets_Collaborateurs_ManagerID",
-                        column: x => x.ManagerID,
-                        principalTable: "Collaborateurs",
                         principalColumn: "Id");
                 });
 
@@ -253,16 +241,16 @@ namespace Gestion_Projet_App.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     EquipeId = table.Column<int>(type: "int", nullable: false),
-                    CollaborateurId = table.Column<int>(type: "int", nullable: true),
+                    CollaborateurId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     created_at = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_EquipeCollaborateurs", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_EquipeCollaborateurs_Collaborateurs_CollaborateurId",
+                        name: "FK_EquipeCollaborateurs_AspNetUsers_CollaborateurId",
                         column: x => x.CollaborateurId,
-                        principalTable: "Collaborateurs",
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_EquipeCollaborateurs_Equipes_EquipeId",
@@ -296,6 +284,31 @@ namespace Gestion_Projet_App.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "ProjetEquipes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    EquipeId = table.Column<int>(type: "int", nullable: true),
+                    ProjetId = table.Column<int>(type: "int", nullable: true),
+                    created_at = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ProjetEquipes", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ProjetEquipes_Equipes_EquipeId",
+                        column: x => x.EquipeId,
+                        principalTable: "Equipes",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_ProjetEquipes_Projets_ProjetId",
+                        column: x => x.ProjetId,
+                        principalTable: "Projets",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Taches",
                 columns: table => new
                 {
@@ -316,7 +329,8 @@ namespace Gestion_Projet_App.Migrations
                         name: "FK_Taches_Projets_ProjetId",
                         column: x => x.ProjetId,
                         principalTable: "Projets",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -326,16 +340,16 @@ namespace Gestion_Projet_App.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TacheId = table.Column<int>(type: "int", nullable: false),
-                    CollaborateurId = table.Column<int>(type: "int", nullable: false),
+                    CollaborateurId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     created_at = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_TacheCollaborateurs", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_TacheCollaborateurs_Collaborateurs_CollaborateurId",
+                        name: "FK_TacheCollaborateurs_AspNetUsers_CollaborateurId",
                         column: x => x.CollaborateurId,
-                        principalTable: "Collaborateurs",
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -367,6 +381,11 @@ namespace Gestion_Projet_App.Migrations
                 name: "IX_AspNetUserLogins_UserId",
                 table: "AspNetUserLogins",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AspNetUserRoles_ApplicationUserId",
+                table: "AspNetUserRoles",
+                column: "ApplicationUserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetUserRoles_RoleId",
@@ -404,6 +423,16 @@ namespace Gestion_Projet_App.Migrations
                 name: "IX_Equipes_ChefId",
                 table: "Equipes",
                 column: "ChefId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ProjetEquipes_EquipeId",
+                table: "ProjetEquipes",
+                column: "EquipeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ProjetEquipes_ProjetId",
+                table: "ProjetEquipes",
+                column: "ProjetId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Projets_ClientID",
@@ -456,13 +485,13 @@ namespace Gestion_Projet_App.Migrations
                 name: "EquipeCollaborateurs");
 
             migrationBuilder.DropTable(
+                name: "ProjetEquipes");
+
+            migrationBuilder.DropTable(
                 name: "TacheCollaborateurs");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
-
-            migrationBuilder.DropTable(
-                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "Equipes");
@@ -474,10 +503,10 @@ namespace Gestion_Projet_App.Migrations
                 name: "Projets");
 
             migrationBuilder.DropTable(
-                name: "Clients");
+                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Collaborateurs");
+                name: "Clients");
         }
     }
 }

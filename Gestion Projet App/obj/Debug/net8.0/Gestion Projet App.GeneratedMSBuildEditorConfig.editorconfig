@@ -1,0 +1,225 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gestion_Projet_App
+build_property.RootNamespace = Gestion_Projet_App
+build_property.ProjectDir = C:\Users\akhouy\Desktop\projets\gestion-de-projet\Gestion Projet App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\akhouy\Desktop\projets\gestion-de-projet\Gestion Projet App
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionClient/AddEditClient.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNsaWVudFxBZGRFZGl0Q2xpZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionClient/ListClient.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNsaWVudFxMaXN0Q2xpZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionCollaborateur/AddEditCollaborateur.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNvbGxhYm9yYXRldXJcQWRkRWRpdENvbGxhYm9yYXRldXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionCollaborateur/CollaborateurDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNvbGxhYm9yYXRldXJcQ29sbGFib3JhdGV1ckRldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionCollaborateur/GestionRoles/AddEditUserRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNvbGxhYm9yYXRldXJcR2VzdGlvblJvbGVzXEFkZEVkaXRVc2VyUm9sZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionCollaborateur/GestionRoles/ListUserRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNvbGxhYm9yYXRldXJcR2VzdGlvblJvbGVzXExpc3RVc2VyUm9sZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionCollaborateur/ListCollaborateur.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkNvbGxhYm9yYXRldXJcTGlzdENvbGxhYm9yYXRldXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionEquipes/AddEditEquipe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkVxdWlwZXNcQWRkRWRpdEVxdWlwZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionEquipes/AddEditEquipeCollaborateur.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkVxdWlwZXNcQWRkRWRpdEVxdWlwZUNvbGxhYm9yYXRldXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionEquipes/DetailEquipe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkVxdWlwZXNcRGV0YWlsRXF1aXBlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionEquipes/ListEquipe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkVxdWlwZXNcTGlzdEVxdWlwZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionEquipes/ListEquipeCollaborateur.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbkVxdWlwZXNcTGlzdEVxdWlwZUNvbGxhYm9yYXRldXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/AddEditProjet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxBZGRFZGl0UHJvamV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/AddEditTache.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxBZGRFZGl0VGFjaGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/AddEditTacheCollaborateurrazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxBZGRFZGl0VGFjaGVDb2xsYWJvcmF0ZXVycmF6b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/AddTache.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxBZGRUYWNoZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/GestionProjetEquipe/AddEditProjetEquipe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxHZXN0aW9uUHJvamV0RXF1aXBlXEFkZEVkaXRQcm9qZXRFcXVpcGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/GestionProjetEquipe/ListProjetEquipe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxHZXN0aW9uUHJvamV0RXF1aXBlXExpc3RQcm9qZXRFcXVpcGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/ListProjet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxMaXN0UHJvamV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/ListTache.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxMaXN0VGFjaGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/GestionProjet/ProjetDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvblByb2pldFxQcm9qZXREZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/SelectButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlbGVjdEJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-n0sqpsz9c0
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/Loader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-8nwnaup3ed
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zbvo9kx4ct
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dqh0kjbi6u
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/akhouy/Desktop/projets/gestion-de-projet/Gestion Projet App/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
